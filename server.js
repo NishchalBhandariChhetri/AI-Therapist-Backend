@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://nishchalbhandarichhetri.github.io/AI-Therapist-Frontend/", 
+    origin: "https://nishchalbhandarichhetri.github.io", 
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
